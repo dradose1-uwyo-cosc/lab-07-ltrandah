@@ -1,12 +1,5 @@
-# [Name]
-## [Assignment #]
-## [Submission date: MM/DD/YY]
+# [Lily Trandahl]
+## [Assignment #7]
+## [Submission date: 10/31/24]
 ## Worked with/sources 
-* example
-* example
-* example
-* example
 ## Project Quirks/ Things that don't work
-* example
-* example
-* example
