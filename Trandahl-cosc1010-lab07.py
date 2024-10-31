@@ -1,9 +1,9 @@
-# Your Name Here
+# Lily Trandahl
 # UWYO COSC 1010
-# Submission Date
-# Lab XX
-# Lab Section: 
-# Sources, people worked with, help given to: 
+# 10/31/24
+# Lab 07
+# Lab Section: 13
+# Sources, people worked with, help given to: went to tutor in STEP.
 # your
 # comments
 # here
@@ -16,12 +16,23 @@
     # To do so you can use the methods `.isdigit()` or `.isnumeric()`
     # If a user did not enter a number output a statement saying so
 # You will continue to prompt the user until a proper integer value is entered
+upper_bound = int(input("Please enter upper bound: "))
+while (!upper_bound.isnumeric()):
+    upper_bound = int(input("Please enter upper bound: "))
+    
+# print(f"The upper bound you entered is: {upper_bound}")
+# def factorial(n):
+#     result = 1
+#     while n > 0:
+#         result *= n
+#         n -= 1
+#     return result
 
-factorial = 1
+# factorial = 1
 
-print(f"The result of the factorial based on the given bound is {factorial}")
+# print(f"The result of the factorial based on the given bound is {factorial}")
 
-print("*"*75)
+# print("*"*75)
 # Create a while loop that prompts a user for input of an integer values
 # Sum all inputs. When the user enters 'exit' (regardless of casing) end the loop
 # Upon ending the loop print the sum
