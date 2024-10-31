@@ -16,8 +16,8 @@
     # To do so you can use the methods `.isdigit()` or `.isnumeric()`
     # If a user did not enter a number output a statement saying so
 # You will continue to prompt the user until a proper integer value is entered
-upper_bound = int(input("Please enter upper bound: "))
-while (!upper_bound.isnumeric()):
+upper_bound = (input("Please enter upper bound: "))
+while (not(upper_bound.isnumeric())):
     upper_bound = int(input("Please enter upper bound: "))
     
 # print(f"The upper bound you entered is: {upper_bound}")
